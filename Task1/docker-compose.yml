@@ -1,0 +1,7 @@
+version: "3"
+services:
+  task1:
+    image: 3683c15f9417
+    build: .
+    ports:
+      - "5000:5000"
